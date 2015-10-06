@@ -1,0 +1,8 @@
+{
+  "name": "prototypo-appback-proxy",
+  "description": "adhoc proxy for session endpoint on appback",
+  "repository": "https://github.com/byte-foundry/prototypo-appback-proxy",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

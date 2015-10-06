@@ -1,0 +1,27 @@
+{
+  "name": "prototypo-appback-proxy",
+  "version": "1.0.0",
+  "description": "adhoc proxy for session endpoint on appback",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byte-foundry/prototypo-appback-proxy.git"
+  },
+  "author": "Louis-Rémi",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byte-foundry/prototypo-appback-proxy/issues"
+  },
+  "homepage": "https://github.com/byte-foundry/prototypo-appback-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.11.2"
+  }
+}
