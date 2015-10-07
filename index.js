@@ -2,7 +2,7 @@ var httpProxy = require('http-proxy');
 var https = require('https');
 
 httpProxy.createProxyServer({
-    target:'https://prototypo-dev.appback.com',
+    target:'https://prototypo.appback.com',
     agent  : https.globalAgent,
     headers: {
         host: 'prototypo-dev.appback.com'
