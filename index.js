@@ -5,7 +5,7 @@ httpProxy.createProxyServer({
     target:'https://prototypo.appback.com',
     agent  : https.globalAgent,
     headers: {
-        host: 'prototypo-dev.appback.com'
+        host: 'prototypo.appback.com'
     }
 
 }).listen(process.env.PORT || 5000);
