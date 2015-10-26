@@ -2,10 +2,10 @@ var httpProxy = require('http-proxy');
 var https = require('https');
 
 httpProxy.createProxyServer({
-    target:'https://prototypo.appback.com',
+    target:'https://' + process.env.TARGET,
     agent  : https.globalAgent,
     headers: {
-        host: 'prototypo.appback.com'
+        host: process.env.TARGET
     }
 
 }).listen(process.env.PORT || 5000);
